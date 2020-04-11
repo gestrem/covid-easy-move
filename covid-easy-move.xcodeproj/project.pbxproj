@@ -83,6 +83,7 @@
 				5D0487872442000A00349DA1 /* covid-easy-moveTests */,
 				5D0487922442000A00349DA1 /* covid-easy-moveUITests */,
 				5D04876E2442000800349DA1 /* Products */,
+				5D892E2A24421B58004CE2F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +127,13 @@
 				5D0487952442000A00349DA1 /* Info.plist */,
 			);
 			path = "covid-easy-moveUITests";
+			sourceTree = "<group>";
+		};
+		5D892E2A24421B58004CE2F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +204,11 @@
 				TargetAttributes = {
 					5D04876C2442000800349DA1 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					5D0487832442000A00349DA1 = {
 						CreatedOnToolsVersion = 10.1;
